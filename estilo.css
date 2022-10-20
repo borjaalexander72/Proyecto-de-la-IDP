@@ -1,0 +1,163 @@
+body
+{
+    background-color: rgb(255, 237, 254);
+}
+h1
+{
+    font-family: 'Brush Script MT', cursive;
+    margin-left: 500px;
+    font-size: xx-large;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav
+{
+    background: rgb(152, 21, 21);
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+.enlace
+{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo
+{
+    height: 40px;
+}
+.menu
+{
+    height: 35px;
+}
+nav ul
+{
+    float: right;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a
+{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+li a:hover
+{
+    background: rgb(206, 180, 127);
+    transition: .2s;
+}
+
+.checkbtn
+{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check
+{
+    display: none;
+}
+@media (max-width: 952px)
+{
+    .enlace
+    {
+        padding-left: 20px;
+    }
+    nav ul li a
+    {
+        font-size: 16px;
+    };
+}
+@media (max-width: 858px)
+{
+    .checkbtn
+    {
+        display: block;
+    }
+    ul
+    {
+        position: fixed;
+        width: 100%;
+        height: 100vmax;
+        background: rgb(0, 0, 0);
+        top: -900px;
+        left: 260%;
+        text-align: center;
+        transition: all 0.9s;
+        padding-bottom: 1000px;
+    }
+    nav ul li
+    {
+        display: block;
+        margin: 50px 0;
+        line-height: 10px;
+    }
+    nav ul li a
+    {
+        font-size: 20px;
+    }
+    li a:hover, li a.active
+    {
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul
+    {
+        left: 0;
+        top: 0px;
+        position: relative;
+        margin-top: 0px;
+    }
+}
+.galeria
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.galeria img
+{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+.fotos
+{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .5);
+}
+.galeria img:hover
+{
+    filter: blur(0px);
+    transform: rotate(5deg) scale(1.1);
+}
+.texto
+{
+	margin-left: 350px;
+}

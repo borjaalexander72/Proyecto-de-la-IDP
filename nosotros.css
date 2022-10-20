@@ -1,0 +1,285 @@
+body
+{
+    background: antiquewhite;
+}
+
+.foto1
+{
+    border-radius: 50%;
+    height: 290px;
+    display: inline;
+	margin-left: 37.5%;
+}
+
+.info1
+{
+    text-align: center;
+    margin-left: 200px;
+	margin-right: 200px;
+    margin-bottom: 40px;
+	margin-top: 60px;
+    border-radius: 10px;
+}
+
+.box
+{
+    background: rgb(234, 203, 163);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+}
+@media (max-width: 1280px)
+{
+    .foto1
+    {
+        margin-left: 36%;
+    }
+}
+@media (max-width: 1024px)
+{
+    .box
+    {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media (max-width: 412px)
+{
+    .box
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .info1
+    {
+        margin: 10px 15px;
+    }
+    .foto1
+    {
+        margin: 30px 10%;
+    }
+}
+@media (max-width: 280px)
+{
+    .foto1
+    {
+        margin: 10px 13%;
+        width: 200px;
+    }
+}
+@media (max-width: 540px)
+{
+    .info1
+    {
+        margin: 0px 20px;
+    }
+    .foto1
+    {
+        margin: 20px 90px;
+    }
+}
+@media (max-width: 912px)
+{
+    .info1
+    {
+        margin: 10px 20px;
+    }
+    .foto1
+    {
+        margin: 20px 33%;
+    }
+}
+@media (max-width: 768px)
+{
+    .foto1
+    {
+        margin: 30px 31%;
+    }
+}
+@media (max-width: 412px)
+{
+    .foto1
+    {
+        margin: 30px 17%;
+    }
+}
+@media (max-width: 360px)
+{
+    .foto1
+    {
+        margin: 30px 11%;
+    }
+}
+@media (max-width: 390px)
+{
+    .foto1
+    {
+        margin: 30px 15%;
+    }
+}
+@media (max-width: 414px)
+{
+    .box
+    {
+        margin: 10px 10px;
+    }
+    .info1
+    {
+        margin: 0px 20px;
+        font-size: 20px;
+    }
+    .foto1
+    {
+        margin: 30px 15%;
+    }
+}
+@media (max-width: 375px)
+{
+    .foto1
+    {
+        margin: 30px 13%;
+    }
+}
+@media (max-width: 713px)
+{
+    .foto1
+    {
+        margin: 30px 28%;
+    }
+}
+@media (max-width: 560px)
+{
+    .foto1
+    {
+        margin: 30px 23%;
+    }
+}
+@media (max-width: 377px)
+{
+    .foto1
+    {
+        margin: 30px 13%;
+    }
+}
+@media (max-width: 292px)
+{
+    .foto1
+    {
+        margin: 30px 15%;
+        width: 200px;
+    }
+}
+@media (max-width: 294px)
+{
+    .foto1
+    {
+        width: 200px;
+    }
+}
+@media (max-width: 300px)
+{
+    .foto1
+    {
+        width: 200px;
+    }
+}
+@media (max-width: 306px)
+{
+    .foto1
+    {
+        width: 200px;
+        margin: 30px 15%;
+    }
+}
+@media (max-width: 344px)
+{
+    .foto1
+    {
+        width: 200px;
+        margin: 30px 19%;
+    }
+}
+@media (max-width: 360px)
+{
+    .foto1
+    {
+        width: 250px;
+        margin: 30px 15%;
+    }
+}
+@media (max-width: 414px)
+{
+    .foto1
+    {
+        width: 250px;
+        margin: 30px 19%;
+    }
+}
+@media (max-width: 455px)
+{
+    .foto1
+    {
+        width: 250px;
+        margin: 30px 17%;
+    }
+}
+@media (max-width: 548px)
+{
+    .foto1
+    {
+        width: 250px;
+        margin: 30px 23%;
+    }
+}
+@media (max-width: 320px)
+{
+    .foto1
+    {
+        width: 250px;
+        margin: 30px 10%;
+    }
+}
+@media (max-width: 341px)
+{
+    .foto1
+    {
+        width: 250px;
+        margin: 30px 13%;
+    }
+}
+@media (max-width: 305px)
+{
+    .foto1
+    {
+        width: 250px;
+        margin: 30px 8%;
+    }
+}
+@media (max-width: 433px)
+{
+    .foto1
+    {
+        width: 250px;
+        margin: 30px 15%;
+    }
+}
+@media (max-width: 420px)
+{
+    .foto1
+    {
+        width: 250px;
+        margin: 30px 10%;
+    }
+}
+@media (max-width: 430px) 
+{
+    .foto1
+    {
+        width: 250px;
+        margin: 30px 11%;
+    }
+}
+
